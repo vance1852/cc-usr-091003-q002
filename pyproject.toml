@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cc-usr-arm-release"
+version = "0.1.0"
+description = "机械臂视觉模型换线放行领域契约"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["src"]
