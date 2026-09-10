@@ -1,0 +1,53 @@
+{
+    "scenario":  "line-change-a17",
+    "events":  [
+                   {
+                       "event_id":  "002-event-1",
+                       "kind":  "bundle_registered",
+                       "occurred_at":  "2026-09-10T08:00:00+08:00",
+                       "received_at":  "2026-09-10T08:01:00+08:00",
+                       "attributes":  {
+                                          "station_id":  "arm-cell-03",
+                                          "model_digest":  "sha256:demo",
+                                          "recipe":  "housing-a17",
+                                          "sequence":  1
+                                      }
+                   },
+                   {
+                       "event_id":  "002-event-2",
+                       "kind":  "stage_started",
+                       "occurred_at":  "2026-09-10T08:01:00+08:00",
+                       "received_at":  "2026-09-10T08:02:00+08:00",
+                       "attributes":  {
+                                          "station_id":  "arm-cell-03",
+                                          "model_digest":  "sha256:demo",
+                                          "recipe":  "housing-a17",
+                                          "sequence":  2
+                                      }
+                   },
+                   {
+                       "event_id":  "002-event-3",
+                       "kind":  "inference_reported",
+                       "occurred_at":  "2026-09-10T08:02:00+08:00",
+                       "received_at":  "2026-09-10T08:03:00+08:00",
+                       "attributes":  {
+                                          "station_id":  "arm-cell-03",
+                                          "model_digest":  "sha256:demo",
+                                          "recipe":  "housing-a17",
+                                          "sequence":  3
+                                      }
+                   },
+                   {
+                       "event_id":  "002-event-4",
+                       "kind":  "station_acknowledged",
+                       "occurred_at":  "2026-09-10T08:03:00+08:00",
+                       "received_at":  "2026-09-10T08:04:00+08:00",
+                       "attributes":  {
+                                          "station_id":  "arm-cell-03",
+                                          "model_digest":  "sha256:demo",
+                                          "recipe":  "housing-a17",
+                                          "sequence":  4
+                                      }
+                   }
+               ]
+}
