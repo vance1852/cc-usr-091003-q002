@@ -1,5 +1,6 @@
-"""机械臂视觉模型换线放行的领域协议。"""
+"""机械臂视觉模型换线放行平台。"""
 
 from .contracts import ContractError, EventEnvelope, load_events
+from .models import PlatformError
 
-__all__ = ["ContractError", "EventEnvelope", "load_events"]
+__all__ = ["ContractError", "EventEnvelope", "PlatformError", "load_events"]

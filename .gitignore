@@ -10,3 +10,9 @@ coverage/
 __pycache__/
 *.py[cod]
 .DS_Store
+
+# 平台本地数据（持久化、密钥、临时缓存）
+data/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm

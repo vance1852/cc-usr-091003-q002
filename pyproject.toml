@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "cc-usr-arm-release"
 version = "0.1.0"
-description = "机械臂视觉模型换线放行领域契约"
+description = "机械臂视觉模型换线放行平台：签名发布组合、影子比对、限量试运行与冻结回滚"
 requires-python = ">=3.11"
 
 [tool.setuptools.packages.find]
