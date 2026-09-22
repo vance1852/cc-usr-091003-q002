@@ -1,0 +1,2392 @@
+{
+  "scenario": "line-change-a17-full",
+  "events": [
+    {
+      "event_id": "a17-001",
+      "kind": "signing_key_registered",
+      "occurred_at": "2026-09-10T07:30:00+08:00",
+      "received_at": "2026-09-09T23:31:00+00:00",
+      "attributes": {
+        "key_id": "factory-root-2026",
+        "jwk": {
+          "kty": "RSA",
+          "n": "aantB8irOp9yt96CBfQM1lZTIStJrx2BtFNCdjJk4INmYsO3PMn-ZkWzMu5Ow99gUbZ6zAKR1VPVCDs2zQIbruXDZsWF8TM_pHWbPnmPsoBBFoWT4EEnR9oTR-loEcdWNbVb0yL8K3jmZ1UKI_B5hHGQy_Dz01WXPkfpzR3lqBvntnc8l4_Gwr6P2rhed9FHZh1DZOsyUI7As-EKsmrXIs5uluKQYnR_NVFSe7pA5gYNwO49swi35zABfQPjKR34IjBdQFrWlWYKpZG4WIC1j0wzqMwKmOAtnpolW8pnLMoKnN77YFe8duRQBq0Ra682LCqpWQjuvzpnBAJ_qz4-5Q",
+          "e": "AQAB"
+        }
+      }
+    },
+    {
+      "event_id": "a17-002",
+      "kind": "model_registered",
+      "occurred_at": "2026-09-10T07:31:00+08:00",
+      "received_at": "2026-09-09T23:32:00+00:00",
+      "attributes": {
+        "model_id": "vision-v7",
+        "digest": "sha256:daae5c4787c25ac00e2f6de4ef0fb7d8cca77a79404d8466a0427bd8b4cc8fed",
+        "signature": "TAx3DYgC5hm+x65LlnkXj5djjsCqs2iBK+TiIDtb6BQv3FXlmMKRwuNNJNgKm6/zFVQJYSSf8zOlYbHvWddjO9+1j4U0ysXMHK/dYtzCHm8prXds2gphD5ZyV4/H9FeFE4DMGfb2LBlGt95uvbJ04bjePnLXMe58akLonyqD1hwhRrRgw9hlQ9Bcex6kLHcfZ/tiXXxFWlsqnAKNcDKZH8Km8pmGEgezw5SZo85iwo1XY99ZsFv/+ZtW+DMo8ymZCylqRcuDxeES0AT3xFeU/+w9heipMXBpgGxw4oAq9VWNvjno25NMZ5u9lNiHLUZc4LUlqs7/qH4zmSungxrGIA==",
+        "key_id": "factory-root-2026",
+        "created_by": "ml-eng.chen"
+      }
+    },
+    {
+      "event_id": "a17-003",
+      "kind": "model_registered",
+      "occurred_at": "2026-09-10T07:32:00+08:00",
+      "received_at": "2026-09-09T23:33:00+00:00",
+      "attributes": {
+        "model_id": "vision-v8",
+        "digest": "sha256:136ee8860e01128696da2da1befc369df82cc384776ab35c75ac5216802574db",
+        "signature": "MakcKJoGMyDdRMxVYGCRBrZdNNM/bVZbZxXxPh/JpTxg3RGII+KhimLLK+OO1uHPCs+3wAzgdFAISN3k2/Mb64Kw9n7ikNMmZ6PIJgo7T772hGTqDY9GYNWSJo9/duqrMAf+18gar8qxXO9qfvRXlVc/iMwWMINwEnkn1rmgfIKP9uJRHDC5CkAq95q+npYl/wZjUh3wHDpVFJBwistTvXpSpNbz4gwEX8TW0ZLxqojFEJF8SGULAq/JfkF5H4FNbs38ZREroAppSCB99dJi/g3caJSjmDyZ9pCospUlTVucCXLj4G08Pk0eiihi3gPQAaHy5FYzdym96AH+yzMOyA==",
+        "key_id": "factory-root-2026",
+        "created_by": "ml-eng.chen"
+      }
+    },
+    {
+      "event_id": "a17-004",
+      "kind": "calibration_registered",
+      "occurred_at": "2026-09-10T07:33:00+08:00",
+      "received_at": "2026-09-09T23:34:00+00:00",
+      "attributes": {
+        "calib_id": "cal-01",
+        "station_id": "arm-cell-01",
+        "digest": "sha256:cal-01-v1",
+        "created_by": "vision-optics"
+      }
+    },
+    {
+      "event_id": "a17-006",
+      "kind": "calibration_registered",
+      "occurred_at": "2026-09-10T07:33:00+08:00",
+      "received_at": "2026-09-09T23:34:00+00:00",
+      "attributes": {
+        "calib_id": "cal-02",
+        "station_id": "arm-cell-02",
+        "digest": "sha256:cal-02-v1",
+        "created_by": "vision-optics"
+      }
+    },
+    {
+      "event_id": "a17-008",
+      "kind": "calibration_registered",
+      "occurred_at": "2026-09-10T07:33:00+08:00",
+      "received_at": "2026-09-09T23:34:00+00:00",
+      "attributes": {
+        "calib_id": "cal-03",
+        "station_id": "arm-cell-03",
+        "digest": "sha256:cal-03-v1",
+        "created_by": "vision-optics"
+      }
+    },
+    {
+      "event_id": "a17-005",
+      "kind": "calibration_registered",
+      "occurred_at": "2026-09-10T07:34:00+08:00",
+      "received_at": "2026-09-09T23:35:00+00:00",
+      "attributes": {
+        "calib_id": "cal-01-v2",
+        "station_id": "arm-cell-01",
+        "digest": "sha256:cal-01-v2",
+        "created_by": "vision-optics"
+      }
+    },
+    {
+      "event_id": "a17-007",
+      "kind": "calibration_registered",
+      "occurred_at": "2026-09-10T07:34:00+08:00",
+      "received_at": "2026-09-09T23:35:00+00:00",
+      "attributes": {
+        "calib_id": "cal-02-v2",
+        "station_id": "arm-cell-02",
+        "digest": "sha256:cal-02-v2",
+        "created_by": "vision-optics"
+      }
+    },
+    {
+      "event_id": "a17-009",
+      "kind": "calibration_registered",
+      "occurred_at": "2026-09-10T07:34:00+08:00",
+      "received_at": "2026-09-09T23:35:00+00:00",
+      "attributes": {
+        "calib_id": "cal-03-v2",
+        "station_id": "arm-cell-03",
+        "digest": "sha256:cal-03-v2",
+        "created_by": "vision-optics"
+      }
+    },
+    {
+      "event_id": "a17-010",
+      "kind": "recipe_registered",
+      "occurred_at": "2026-09-10T07:35:00+08:00",
+      "received_at": "2026-09-09T23:36:00+00:00",
+      "attributes": {
+        "recipe_id": "housing-a17",
+        "created_by": "quality-head.li",
+        "thresholds": {
+          "min_recall": 0.99,
+          "max_false_reject_rate": 0.02,
+          "max_latency_ms": 120.0,
+          "min_decision_samples": 60,
+          "canary_cap": 200
+        }
+      }
+    },
+    {
+      "event_id": "a17-011",
+      "kind": "bundle_registered",
+      "occurred_at": "2026-09-10T07:40:00+08:00",
+      "received_at": "2026-09-09T23:41:00+00:00",
+      "attributes": {
+        "bundle_id": "B-stable-v7",
+        "model_id": "vision-v7",
+        "recipe_id": "housing-a17",
+        "calibs": {
+          "arm-cell-01": "cal-01",
+          "arm-cell-02": "cal-02",
+          "arm-cell-03": "cal-03"
+        },
+        "created_by": "release-eng.zhao"
+      }
+    },
+    {
+      "event_id": "a17-012",
+      "kind": "bundle_registered",
+      "occurred_at": "2026-09-10T07:42:00+08:00",
+      "received_at": "2026-09-09T23:43:00+00:00",
+      "attributes": {
+        "bundle_id": "B-candidate-v8",
+        "model_id": "vision-v8",
+        "recipe_id": "housing-a17",
+        "calibs": {
+          "arm-cell-01": "cal-01-v2",
+          "arm-cell-02": "cal-02-v2",
+          "arm-cell-03": "cal-03-v2"
+        },
+        "created_by": "release-eng.zhao"
+      }
+    },
+    {
+      "event_id": "a17-013",
+      "kind": "stable_provisioned",
+      "occurred_at": "2026-09-10T08:00:00+08:00",
+      "received_at": "2026-09-10T00:01:00+00:00",
+      "attributes": {
+        "station_id": "arm-cell-01",
+        "bundle_id": "B-stable-v7",
+        "actor": "line-lead.wang"
+      }
+    },
+    {
+      "event_id": "a17-014",
+      "kind": "stable_provisioned",
+      "occurred_at": "2026-09-10T08:00:00+08:00",
+      "received_at": "2026-09-10T00:01:00+00:00",
+      "attributes": {
+        "station_id": "arm-cell-02",
+        "bundle_id": "B-stable-v7",
+        "actor": "line-lead.wang"
+      }
+    },
+    {
+      "event_id": "a17-015",
+      "kind": "stable_provisioned",
+      "occurred_at": "2026-09-10T08:00:00+08:00",
+      "received_at": "2026-09-10T00:01:00+00:00",
+      "attributes": {
+        "station_id": "arm-cell-03",
+        "bundle_id": "B-stable-v7",
+        "actor": "line-lead.wang"
+      }
+    },
+    {
+      "event_id": "a17-016",
+      "kind": "inference_reported",
+      "occurred_at": "2026-09-10T08:20:00+08:00",
+      "received_at": "2026-09-10T08:21:00+08:00",
+      "attributes": {
+        "receipt_id": "rcp-01-morning-A",
+        "station_id": "arm-cell-01",
+        "bundle_id": "B-stable-v7",
+        "occurred_at": "2026-09-10T08:20:00+08:00",
+        "received_at": "2026-09-10T08:21:00+08:00",
+        "samples": [
+          {
+            "sample_id": "arm-cell-01-A-000",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-001",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-002",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-003",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-004",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-005",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-006",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-007",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-008",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-009",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-010",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-011",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-012",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-013",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-014",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-015",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-016",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-017",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-018",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-019",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-020",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-021",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-022",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-023",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-024",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-025",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-026",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-027",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-028",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-01-A-029",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          }
+        ],
+        "key_id": "factory-root-2026",
+        "signature": "VPZ2FowzY8KS8vG1jIqz7axJfO4o7kEhWsgsbBSD95eUNhJjSBFAK/64BjQJJTMwtSKJKgu7CR/CDDd+Tm7H1cBHQTyVxBqIzUdOrHDbR63OXfx9iwfwbqDvwR+zQ/5cz7YXMKYE4pgio7e+nYVp+t941yNLVnu0FUeb6PHKCCLilesv1x3CKqXKQ0ft+d1sEA7reiLDARWJ+8YIWpTRtibkDHgye+82J1uuGyAiskbOdurc0LcRfVdCyJSo73II0twESikmXB8HlmFkGzC4VO2vEwNvO/Ak3uvM2JD2pJJcx0Lo/usA1t4pXna0cfnkOUJBLPXa1hux1c+vWqsIpw==",
+        "batch_id": "B20260910-A"
+      }
+    },
+    {
+      "event_id": "a17-017",
+      "kind": "inference_reported",
+      "occurred_at": "2026-09-10T08:20:00+08:00",
+      "received_at": "2026-09-10T08:21:00+08:00",
+      "attributes": {
+        "receipt_id": "rcp-02-morning-A",
+        "station_id": "arm-cell-02",
+        "bundle_id": "B-stable-v7",
+        "occurred_at": "2026-09-10T08:20:00+08:00",
+        "received_at": "2026-09-10T08:21:00+08:00",
+        "samples": [
+          {
+            "sample_id": "arm-cell-02-A-000",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-001",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-002",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-003",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-004",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-005",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-006",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-007",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-008",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-009",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-010",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-011",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-012",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-013",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-014",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-015",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-016",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-017",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-018",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-019",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-020",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-021",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-022",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-023",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-024",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-025",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-026",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-027",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-028",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-02-A-029",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          }
+        ],
+        "key_id": "factory-root-2026",
+        "signature": "Zh27C/4e214+YDWXhPyVudVy6GVcaUmaLkvvd0lyh/0TE3hLeYSy7VcKN7mdR9OSNx7D7cUBR6lpZygmtEVWWGrXgHsMgzG7p7b/LXk8FnDmhYv2t4DAsvDQND7b7NijDvavR8PAvJiSS4YkMpfPfVu9Y7H0W6XEBt3CnpG3+PC48Z3eQyW0WOdsnBqnwJ44IXamjIijxis3tap4mW9M2jnX0nkWGYW8Xc3p7VST2YRyAPuLxJdZv25q7P/zIafC0xIpeJmZ4p66h7MbGVIo66DmC6YR0Gve6E1+SYD/+UsOtmQa+9YyshxYsZoa5PeizY0ROYF9Fk32twwc0DDkaw==",
+        "batch_id": "B20260910-A"
+      }
+    },
+    {
+      "event_id": "a17-018",
+      "kind": "inference_reported",
+      "occurred_at": "2026-09-10T08:20:00+08:00",
+      "received_at": "2026-09-10T08:21:00+08:00",
+      "attributes": {
+        "receipt_id": "rcp-03-morning-A",
+        "station_id": "arm-cell-03",
+        "bundle_id": "B-stable-v7",
+        "occurred_at": "2026-09-10T08:20:00+08:00",
+        "received_at": "2026-09-10T08:21:00+08:00",
+        "samples": [
+          {
+            "sample_id": "arm-cell-03-A-000",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-001",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-002",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-003",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-004",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-005",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-006",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-007",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-008",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-009",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-010",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-011",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-012",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-013",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-014",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-015",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-016",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-017",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-018",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-019",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-020",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-021",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-022",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-023",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-024",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-025",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-026",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-027",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-028",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-03-A-029",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          }
+        ],
+        "key_id": "factory-root-2026",
+        "signature": "BlW3XUEjm8GMsJWZwXj7gRAO2kaqyKglpBiB+rFHCdGRxHpFXOwCT2cgaiUR1ChOpD95ZvmxRspkmxesietnfNmxqoknDnSIWjl/if835jKIuwh32t6ql3d7mkSvkebGn8vrSiJxiauovC1Y8zCMXoTx6sZILb2bqjaaG3GnfEleWPfJVW4kW4ZWvPb6oUFGgNycfbCvIlP2xDDWqPnhoqSZ95upAAHPJiI1WKamJD9n+RU2uRNyo1t+8VefAj/aPQ4OD+1bhQaBMRad42q2nHyKfD8LhoHsJ9m+XBro6SgSgrIgqXbk0QWBxEEpQNbeucmdZpdVcZFuIJrgfokrTQ==",
+        "batch_id": "B20260910-A"
+      }
+    },
+    {
+      "event_id": "a17-019",
+      "kind": "inference_reported",
+      "occurred_at": "2026-09-10T08:40:00+08:00",
+      "received_at": "2026-09-10T08:41:00+08:00",
+      "attributes": {
+        "receipt_id": "rcp-01-morning-B",
+        "station_id": "arm-cell-01",
+        "bundle_id": "B-stable-v7",
+        "occurred_at": "2026-09-10T08:40:00+08:00",
+        "received_at": "2026-09-10T08:41:00+08:00",
+        "samples": [
+          {
+            "sample_id": "arm-cell-01-B-000",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-01-B-001",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-01-B-002",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-01-B-003",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-01-B-004",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-01-B-005",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "arm-cell-01-B-006",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "arm-cell-01-B-007",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-01-B-008",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-01-B-009",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-01-B-010",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-01-B-011",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-01-B-012",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "arm-cell-01-B-013",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "arm-cell-01-B-014",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-01-B-015",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-01-B-016",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-01-B-017",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-01-B-018",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-01-B-019",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          }
+        ],
+        "key_id": "factory-root-2026",
+        "signature": "CEgYjztnwyX64a89hwe2sX9CP9z/bD2f9oNbGG3J9j5Hr4476O55Jrh8N1zLshd1oJtoayqaluZ3XQ/QgJyDlIdS2eaW5dADp9GRs1bfsXUg5lenMmOOLfbteeakqzIL2oEsK2rx4s/QvJgPZV7YebElEYflz6hc/sBVY2BVGfKzLUrwkV1BN3LhqwKCDDzXdOYzbAA8mq+t1l8RtVPhM8clVF5kSlnh1Xj+PrRmZkI3sGvGHBfdWCvI089UjnHMis4uxL889hEwNvhgS6t17Xs7arnuRBvF8xby4NwK1IFD91UCQ2H4cRECfSxlR7Tr9jI2zuCLeyZOvCqR2txEDw==",
+        "batch_id": "B20260910-B"
+      }
+    },
+    {
+      "event_id": "a17-020",
+      "kind": "inference_reported",
+      "occurred_at": "2026-09-10T08:40:00+08:00",
+      "received_at": "2026-09-10T08:41:00+08:00",
+      "attributes": {
+        "receipt_id": "rcp-02-morning-B",
+        "station_id": "arm-cell-02",
+        "bundle_id": "B-stable-v7",
+        "occurred_at": "2026-09-10T08:40:00+08:00",
+        "received_at": "2026-09-10T08:41:00+08:00",
+        "samples": [
+          {
+            "sample_id": "arm-cell-02-B-000",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-02-B-001",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-02-B-002",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-02-B-003",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-02-B-004",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-02-B-005",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "arm-cell-02-B-006",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "arm-cell-02-B-007",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-02-B-008",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-02-B-009",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-02-B-010",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-02-B-011",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-02-B-012",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "arm-cell-02-B-013",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "arm-cell-02-B-014",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-02-B-015",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-02-B-016",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-02-B-017",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-02-B-018",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-02-B-019",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          }
+        ],
+        "key_id": "factory-root-2026",
+        "signature": "PQIjViiXMHDupBoFkP0AhD9zKOeiDnV6p/Yl7YUSq4gHTLdpSKr3/mHeMkhDRnm3Rj98XjFTTcdjerHGXJtu5vSwprmgCWNjA/UkcZQo6Ib+0e0/jktZyNpbYivXhYmNU3xjRt8VmuSndmV8s8LF4dMed2szkshSwzotFLNO4BYv67neg4WfgckEaoy5jRrxEmpkIw/NE6lwIgWtkZ1TnaLoS7XxZ9EYiK0wr5ERf6AnuuX9DHd8yfQ0Ub9pEXW6Hn0B/4SqgVYwu+6qNmYWahc/TLnX4hwm7hrF27Ra6oz55PmSG0aOMGMpnnhydPs5Hy+ZmFcxr1Sr4tGuoFVzpQ==",
+        "batch_id": "B20260910-B"
+      }
+    },
+    {
+      "event_id": "a17-021",
+      "kind": "inference_reported",
+      "occurred_at": "2026-09-10T08:40:00+08:00",
+      "received_at": "2026-09-10T08:41:00+08:00",
+      "attributes": {
+        "receipt_id": "rcp-03-morning-B",
+        "station_id": "arm-cell-03",
+        "bundle_id": "B-stable-v7",
+        "occurred_at": "2026-09-10T08:40:00+08:00",
+        "received_at": "2026-09-10T08:41:00+08:00",
+        "samples": [
+          {
+            "sample_id": "arm-cell-03-B-000",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-03-B-001",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-03-B-002",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-03-B-003",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-03-B-004",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-03-B-005",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "arm-cell-03-B-006",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "arm-cell-03-B-007",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-03-B-008",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-03-B-009",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-03-B-010",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-03-B-011",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-03-B-012",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "arm-cell-03-B-013",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "arm-cell-03-B-014",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "arm-cell-03-B-015",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "arm-cell-03-B-016",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "arm-cell-03-B-017",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "arm-cell-03-B-018",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "arm-cell-03-B-019",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          }
+        ],
+        "key_id": "factory-root-2026",
+        "signature": "HZSw+ycLRU4ircuudPrCDVbCwA1MyCYxKumotf9XWcEd8fDsIPAFg1KjV5q/eUQD8Urw8P/2aUrNI74x4U2uVk9EKtQHqPFQolFX7Rfhu3gs4l04e5fTNCFr9+3rEV1j7MicSBZF1Bybw7hdmn8EnPsSwP0JCYeScL++pxvTkARGWd7v8209UxUDmvvZsMlFjRmqYBIfxHg0biMtM0WV96G/OKyz1cYI7hEjIUKm6qrEiRnbhMpKgFwWE6cgad22s+AIBBrxZVEN6Pvi+5UOHe/366uCAKwIHPpulsETOQsu37zIL/VXKBLOezExbqdsEBxdIaCGbU2UfUfWTtK4fQ==",
+        "batch_id": "B20260910-B"
+      }
+    },
+    {
+      "event_id": "a17-057",
+      "kind": "inference_reported",
+      "occurred_at": "2026-09-10T08:45:00+08:00",
+      "received_at": "2026-09-10T10:28:00+08:00",
+      "attributes": {
+        "receipt_id": "rcp-02-morning-B-late",
+        "station_id": "arm-cell-02",
+        "bundle_id": "B-stable-v7",
+        "occurred_at": "2026-09-10T08:45:00+08:00",
+        "received_at": "2026-09-10T10:28:00+08:00",
+        "samples": [
+          {
+            "sample_id": "c02-B-late-000",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "c02-B-late-001",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "c02-B-late-002",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          },
+          {
+            "sample_id": "c02-B-late-003",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 58.0
+          },
+          {
+            "sample_id": "c02-B-late-004",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 59.0
+          },
+          {
+            "sample_id": "c02-B-late-005",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "c02-B-late-006",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "c02-B-late-007",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 55.0
+          },
+          {
+            "sample_id": "c02-B-late-008",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 56.0
+          },
+          {
+            "sample_id": "c02-B-late-009",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 57.0
+          }
+        ],
+        "key_id": "factory-root-2026",
+        "signature": "PrUqeTnR6YUUmL9vF72irDn3UVkXpvFSG3dylDYbDCFnX0OFsZhUItEkKMrfvquhmiN2Y4uPHAoRi2p0A4uQveg24BxxwQK+TSf5bYWMXeUUvexvpuWkZrORTW2sojaHAOQNkLtonNXcn5L8WRZd1oYftGnSXGWshHB/Ll+HLEW7tGHnZtSmQL+0HEZD+KeTGS1ddOuz/RXUB3Y8dDAgiY62YDBn8Sv/RtOqmoxgHJBwUpVxkXK5LqV8oHH5/+beAvSE5sGh0j8nfr7x0X5c/kbObDNveTMbsyw+szbFe8A+Ds2/s4hJhHc3SAD6raYgxtiHeREYQaHzBnh+H3m2mA==",
+        "batch_id": "B20260910-B"
+      }
+    },
+    {
+      "event_id": "a17-022",
+      "kind": "batch_sealed",
+      "occurred_at": "2026-09-10T09:00:00+08:00",
+      "received_at": "2026-09-10T01:01:00+00:00",
+      "attributes": {
+        "batch_id": "B20260910-A",
+        "actor": "quality-head.li"
+      }
+    },
+    {
+      "event_id": "a17-023",
+      "kind": "release_created",
+      "occurred_at": "2026-09-10T09:20:00+08:00",
+      "received_at": "2026-09-10T01:21:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "bundle_id": "B-candidate-v8",
+        "stations": [
+          "arm-cell-01",
+          "arm-cell-02",
+          "arm-cell-03"
+        ],
+        "created_by": "release-eng.zhao"
+      }
+    },
+    {
+      "event_id": "a17-024",
+      "kind": "release_approved",
+      "occurred_at": "2026-09-10T09:25:00+08:00",
+      "received_at": "2026-09-10T01:26:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "approver": "quality-head.li"
+      }
+    },
+    {
+      "event_id": "a17-025",
+      "kind": "shadow_started",
+      "occurred_at": "2026-09-10T09:30:00+08:00",
+      "received_at": "2026-09-10T01:31:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-01",
+        "actor": "line-lead.wang"
+      }
+    },
+    {
+      "event_id": "a17-026",
+      "kind": "shadow_started",
+      "occurred_at": "2026-09-10T09:30:00+08:00",
+      "received_at": "2026-09-10T01:31:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-02",
+        "actor": "line-lead.wang"
+      }
+    },
+    {
+      "event_id": "a17-027",
+      "kind": "shadow_started",
+      "occurred_at": "2026-09-10T09:30:00+08:00",
+      "received_at": "2026-09-10T01:31:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-03",
+        "actor": "line-lead.wang"
+      }
+    },
+    {
+      "event_id": "a17-028",
+      "kind": "shadow_observed",
+      "occurred_at": "2026-09-10T09:35:00+08:00",
+      "received_at": "2026-09-10T01:36:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-01",
+        "sample_id": "sh-01-0",
+        "is_defect": false,
+        "incumbent_reject": false,
+        "candidate_reject": false,
+        "latency_ms": 70.0
+      }
+    },
+    {
+      "event_id": "a17-029",
+      "kind": "shadow_observed",
+      "occurred_at": "2026-09-10T09:35:00+08:00",
+      "received_at": "2026-09-10T01:36:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-01",
+        "sample_id": "sh-01-1",
+        "is_defect": false,
+        "incumbent_reject": false,
+        "candidate_reject": false,
+        "latency_ms": 71.0
+      }
+    },
+    {
+      "event_id": "a17-030",
+      "kind": "shadow_observed",
+      "occurred_at": "2026-09-10T09:35:00+08:00",
+      "received_at": "2026-09-10T01:36:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-01",
+        "sample_id": "sh-01-2",
+        "is_defect": false,
+        "incumbent_reject": false,
+        "candidate_reject": false,
+        "latency_ms": 72.0
+      }
+    },
+    {
+      "event_id": "a17-031",
+      "kind": "shadow_observed",
+      "occurred_at": "2026-09-10T09:35:00+08:00",
+      "received_at": "2026-09-10T01:36:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-01",
+        "sample_id": "sh-01-3",
+        "is_defect": false,
+        "incumbent_reject": false,
+        "candidate_reject": false,
+        "latency_ms": 73.0
+      }
+    },
+    {
+      "event_id": "a17-032",
+      "kind": "shadow_observed",
+      "occurred_at": "2026-09-10T09:35:00+08:00",
+      "received_at": "2026-09-10T01:36:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-01",
+        "sample_id": "sh-01-4",
+        "is_defect": false,
+        "incumbent_reject": false,
+        "candidate_reject": false,
+        "latency_ms": 74.0
+      }
+    },
+    {
+      "event_id": "a17-033",
+      "kind": "shadow_observed",
+      "occurred_at": "2026-09-10T09:35:00+08:00",
+      "received_at": "2026-09-10T01:36:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-01",
+        "sample_id": "sh-01-5",
+        "is_defect": true,
+        "incumbent_reject": true,
+        "candidate_reject": false,
+        "latency_ms": 75.0
+      }
+    },
+    {
+      "event_id": "a17-034",
+      "kind": "shadow_observed",
+      "occurred_at": "2026-09-10T09:35:00+08:00",
+      "received_at": "2026-09-10T01:36:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-02",
+        "sample_id": "sh-02-0",
+        "is_defect": false,
+        "incumbent_reject": false,
+        "candidate_reject": false,
+        "latency_ms": 70.0
+      }
+    },
+    {
+      "event_id": "a17-035",
+      "kind": "shadow_observed",
+      "occurred_at": "2026-09-10T09:35:00+08:00",
+      "received_at": "2026-09-10T01:36:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-02",
+        "sample_id": "sh-02-1",
+        "is_defect": false,
+        "incumbent_reject": false,
+        "candidate_reject": false,
+        "latency_ms": 71.0
+      }
+    },
+    {
+      "event_id": "a17-036",
+      "kind": "shadow_observed",
+      "occurred_at": "2026-09-10T09:35:00+08:00",
+      "received_at": "2026-09-10T01:36:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-02",
+        "sample_id": "sh-02-2",
+        "is_defect": false,
+        "incumbent_reject": false,
+        "candidate_reject": false,
+        "latency_ms": 72.0
+      }
+    },
+    {
+      "event_id": "a17-037",
+      "kind": "shadow_observed",
+      "occurred_at": "2026-09-10T09:35:00+08:00",
+      "received_at": "2026-09-10T01:36:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-02",
+        "sample_id": "sh-02-3",
+        "is_defect": false,
+        "incumbent_reject": false,
+        "candidate_reject": false,
+        "latency_ms": 73.0
+      }
+    },
+    {
+      "event_id": "a17-038",
+      "kind": "shadow_observed",
+      "occurred_at": "2026-09-10T09:35:00+08:00",
+      "received_at": "2026-09-10T01:36:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-02",
+        "sample_id": "sh-02-4",
+        "is_defect": false,
+        "incumbent_reject": false,
+        "candidate_reject": false,
+        "latency_ms": 74.0
+      }
+    },
+    {
+      "event_id": "a17-039",
+      "kind": "shadow_observed",
+      "occurred_at": "2026-09-10T09:35:00+08:00",
+      "received_at": "2026-09-10T01:36:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-02",
+        "sample_id": "sh-02-5",
+        "is_defect": true,
+        "incumbent_reject": true,
+        "candidate_reject": false,
+        "latency_ms": 75.0
+      }
+    },
+    {
+      "event_id": "a17-040",
+      "kind": "shadow_observed",
+      "occurred_at": "2026-09-10T09:35:00+08:00",
+      "received_at": "2026-09-10T01:36:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-03",
+        "sample_id": "sh-03-0",
+        "is_defect": false,
+        "incumbent_reject": false,
+        "candidate_reject": false,
+        "latency_ms": 70.0
+      }
+    },
+    {
+      "event_id": "a17-041",
+      "kind": "shadow_observed",
+      "occurred_at": "2026-09-10T09:35:00+08:00",
+      "received_at": "2026-09-10T01:36:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-03",
+        "sample_id": "sh-03-1",
+        "is_defect": false,
+        "incumbent_reject": false,
+        "candidate_reject": false,
+        "latency_ms": 71.0
+      }
+    },
+    {
+      "event_id": "a17-042",
+      "kind": "shadow_observed",
+      "occurred_at": "2026-09-10T09:35:00+08:00",
+      "received_at": "2026-09-10T01:36:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-03",
+        "sample_id": "sh-03-2",
+        "is_defect": false,
+        "incumbent_reject": false,
+        "candidate_reject": false,
+        "latency_ms": 72.0
+      }
+    },
+    {
+      "event_id": "a17-043",
+      "kind": "shadow_observed",
+      "occurred_at": "2026-09-10T09:35:00+08:00",
+      "received_at": "2026-09-10T01:36:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-03",
+        "sample_id": "sh-03-3",
+        "is_defect": false,
+        "incumbent_reject": false,
+        "candidate_reject": false,
+        "latency_ms": 73.0
+      }
+    },
+    {
+      "event_id": "a17-044",
+      "kind": "shadow_observed",
+      "occurred_at": "2026-09-10T09:35:00+08:00",
+      "received_at": "2026-09-10T01:36:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-03",
+        "sample_id": "sh-03-4",
+        "is_defect": false,
+        "incumbent_reject": false,
+        "candidate_reject": false,
+        "latency_ms": 74.0
+      }
+    },
+    {
+      "event_id": "a17-045",
+      "kind": "shadow_observed",
+      "occurred_at": "2026-09-10T09:35:00+08:00",
+      "received_at": "2026-09-10T01:36:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-03",
+        "sample_id": "sh-03-5",
+        "is_defect": true,
+        "incumbent_reject": true,
+        "candidate_reject": false,
+        "latency_ms": 75.0
+      }
+    },
+    {
+      "event_id": "a17-046",
+      "kind": "canary_started",
+      "occurred_at": "2026-09-10T09:40:00+08:00",
+      "received_at": "2026-09-10T01:41:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-01",
+        "operator": "line-lead.wang"
+      }
+    },
+    {
+      "event_id": "a17-047",
+      "kind": "canary_started",
+      "occurred_at": "2026-09-10T09:40:00+08:00",
+      "received_at": "2026-09-10T01:41:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-02",
+        "operator": "line-lead.wang"
+      }
+    },
+    {
+      "event_id": "a17-048",
+      "kind": "canary_started",
+      "occurred_at": "2026-09-10T09:40:00+08:00",
+      "received_at": "2026-09-10T01:41:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-03",
+        "operator": "line-lead.wang"
+      }
+    },
+    {
+      "event_id": "a17-049",
+      "kind": "station_acknowledged",
+      "occurred_at": "2026-09-10T09:46:00+08:00",
+      "received_at": "2026-09-10T01:47:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-01",
+        "operator": "op.zhou"
+      }
+    },
+    {
+      "event_id": "a17-050",
+      "kind": "station_acknowledged",
+      "occurred_at": "2026-09-10T09:47:00+08:00",
+      "received_at": "2026-09-10T01:48:00+00:00",
+      "attributes": {
+        "release_id": "R-v8-rollout",
+        "station_id": "arm-cell-02",
+        "operator": "op.zhou"
+      }
+    },
+    {
+      "event_id": "a17-051",
+      "kind": "batch_sealed",
+      "occurred_at": "2026-09-10T09:50:00+08:00",
+      "received_at": "2026-09-10T01:51:00+00:00",
+      "attributes": {
+        "batch_id": "B20260910-B",
+        "actor": "quality-head.li"
+      }
+    },
+    {
+      "event_id": "a17-052",
+      "kind": "inference_reported",
+      "occurred_at": "2026-09-10T09:50:00+08:00",
+      "received_at": "2026-09-10T09:51:00+08:00",
+      "attributes": {
+        "receipt_id": "rcp-01-canary-1",
+        "station_id": "arm-cell-01",
+        "bundle_id": "B-candidate-v8",
+        "occurred_at": "2026-09-10T09:50:00+08:00",
+        "received_at": "2026-09-10T09:51:00+08:00",
+        "samples": [
+          {
+            "sample_id": "c01-000",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "c01-001",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "c01-002",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 62.0
+          },
+          {
+            "sample_id": "c01-003",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 63.0
+          },
+          {
+            "sample_id": "c01-004",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 64.0
+          },
+          {
+            "sample_id": "c01-005",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "c01-006",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "c01-007",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 62.0
+          },
+          {
+            "sample_id": "c01-008",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 63.0
+          },
+          {
+            "sample_id": "c01-009",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 64.0
+          },
+          {
+            "sample_id": "c01-010",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "c01-011",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "c01-012",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 62.0
+          },
+          {
+            "sample_id": "c01-013",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 63.0
+          },
+          {
+            "sample_id": "c01-014",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 64.0
+          },
+          {
+            "sample_id": "c01-015",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "c01-016",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "c01-017",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 62.0
+          },
+          {
+            "sample_id": "c01-018",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 63.0
+          },
+          {
+            "sample_id": "c01-019",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 64.0
+          },
+          {
+            "sample_id": "c01-020",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "c01-021",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "c01-022",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 62.0
+          },
+          {
+            "sample_id": "c01-023",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 63.0
+          }
+        ],
+        "key_id": "factory-root-2026",
+        "signature": "WJzErHCTeJJ4Ukuro4i5dciRAz5l/Tb/ySvFhavHdy7GrNjtnoYeJYGCLEcJfa2TuaQGxlHDhoXO57X4MOdZIASDEkOP0g6GomGwQA3sR1fdE1wRMKSoiYuGRBRz58pvFygPow89QLJh8BnWtsxOS3piv/sDjqBEDGnD+pNw0bXEIvhKlqzaO9TavJ5BSoVoEBtdh4MP4U8IOw28hIHd93aaP891cKzmxuxXVVlbOLA9Ctow0Y4J9nVl7iAfAUBXEr3wDOjPlGy+O7Wy0HOw99ClOjLFAzwgou9dc7JT/Itn8zl1NHAWUc8X4xC9RNGJUb5FFp6qhfcSF1xtPcceoQ=="
+      }
+    },
+    {
+      "event_id": "a17-053",
+      "kind": "inference_reported",
+      "occurred_at": "2026-09-10T09:52:00+08:00",
+      "received_at": "2026-09-10T09:53:00+08:00",
+      "attributes": {
+        "receipt_id": "rcp-02-canary-1",
+        "station_id": "arm-cell-02",
+        "bundle_id": "B-candidate-v8",
+        "occurred_at": "2026-09-10T09:52:00+08:00",
+        "received_at": "2026-09-10T09:53:00+08:00",
+        "samples": [
+          {
+            "sample_id": "c02-000",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "c02-001",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "c02-002",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 62.0
+          },
+          {
+            "sample_id": "c02-003",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 63.0
+          },
+          {
+            "sample_id": "c02-004",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 64.0
+          },
+          {
+            "sample_id": "c02-005",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "c02-006",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "c02-007",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 62.0
+          },
+          {
+            "sample_id": "c02-008",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 63.0
+          },
+          {
+            "sample_id": "c02-009",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 64.0
+          },
+          {
+            "sample_id": "c02-010",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "c02-011",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "c02-012",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 62.0
+          },
+          {
+            "sample_id": "c02-013",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 63.0
+          },
+          {
+            "sample_id": "c02-014",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 64.0
+          },
+          {
+            "sample_id": "c02-015",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "c02-016",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "c02-017",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 62.0
+          },
+          {
+            "sample_id": "c02-018",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 63.0
+          },
+          {
+            "sample_id": "c02-019",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 64.0
+          },
+          {
+            "sample_id": "c02-020",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 60.0
+          },
+          {
+            "sample_id": "c02-021",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 61.0
+          },
+          {
+            "sample_id": "c02-022",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 62.0
+          },
+          {
+            "sample_id": "c02-023",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 63.0
+          }
+        ],
+        "key_id": "factory-root-2026",
+        "signature": "FXFaTrGktgywPmy/qWRGfj3cyp1YxppHoI3N+Y2hQK8cqPr0K2zZBtTeTNe57U8QVNXjubkvZu1T/ZRiao78w/UM5huyaI+OiKWx7YY3xC1QeGj4yZRB+7wPKo2bxNmkgNL29kRc3cCliWRH1Zal+rhnlr7Qr3okZIha3toviJtUjdDbt7O6Ec8FmeB0DmN/zU8tSsGns0dzBu+BPOpBhY4fqSWbWFy8HHIGhbQDM7hO5Zo0xS/pJ4EZGycTE9AhCcyQcwpg1BsjTVRgzluKHDB8w+L4fjdZOPxiqL8C7lt0Nl+4oWH9gz+uJzc0YxAO6/2hE7WNuJst0bI00SsEHw=="
+      }
+    },
+    {
+      "event_id": "a17-054",
+      "kind": "inference_reported",
+      "occurred_at": "2026-09-10T10:02:00+08:00",
+      "received_at": "2026-09-10T10:20:00+08:00",
+      "attributes": {
+        "receipt_id": "rcp-03-canary-1",
+        "station_id": "arm-cell-03",
+        "bundle_id": "B-candidate-v8",
+        "occurred_at": "2026-09-10T10:02:00+08:00",
+        "received_at": "2026-09-10T10:20:00+08:00",
+        "samples": [
+          {
+            "sample_id": "c03-000",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 88.0
+          },
+          {
+            "sample_id": "c03-001",
+            "is_defect": false,
+            "model_reject": true,
+            "latency_ms": 89.0
+          },
+          {
+            "sample_id": "c03-002",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 90.0
+          },
+          {
+            "sample_id": "c03-003",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 91.0
+          },
+          {
+            "sample_id": "c03-004",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 88.0
+          },
+          {
+            "sample_id": "c03-005",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 89.0
+          },
+          {
+            "sample_id": "c03-006",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 90.0
+          },
+          {
+            "sample_id": "c03-007",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 91.0
+          },
+          {
+            "sample_id": "c03-008",
+            "is_defect": false,
+            "model_reject": true,
+            "latency_ms": 88.0
+          },
+          {
+            "sample_id": "c03-009",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 89.0
+          },
+          {
+            "sample_id": "c03-010",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 90.0
+          },
+          {
+            "sample_id": "c03-011",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 91.0
+          },
+          {
+            "sample_id": "c03-012",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 88.0
+          },
+          {
+            "sample_id": "c03-013",
+            "is_defect": false,
+            "model_reject": true,
+            "latency_ms": 89.0
+          },
+          {
+            "sample_id": "c03-014",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 90.0
+          },
+          {
+            "sample_id": "c03-015",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 91.0
+          },
+          {
+            "sample_id": "c03-016",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 88.0
+          },
+          {
+            "sample_id": "c03-017",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 89.0
+          },
+          {
+            "sample_id": "c03-018",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 90.0
+          },
+          {
+            "sample_id": "c03-019",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 91.0
+          },
+          {
+            "sample_id": "c03-020",
+            "is_defect": false,
+            "model_reject": true,
+            "latency_ms": 88.0
+          },
+          {
+            "sample_id": "c03-021",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 89.0
+          },
+          {
+            "sample_id": "c03-022",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 90.0
+          },
+          {
+            "sample_id": "c03-023",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 91.0
+          }
+        ],
+        "key_id": "factory-root-2026",
+        "signature": "ILoR1Ido1BHZsDCSvevB2oedKONQbq0mZbvfiXyZvSLdt2vzJ6ApZ+bhg9YgXEfLvGnlO68+jkavoPHTrxhxH9NYXuMJ7Mf0enSz9dLeR5gUzDbQ4d1iXJSTwtxjadag1MshM6oqVqJvKOcJZljj7VcgC061estaYfSV3eXNcyBL8yRu2QdTZMJzIFTivPImg1QjG8/QFQrHqUWFcbqKjxt/Q1DjgEUyiFfqM2Wjn/i3gPgA3B4k4T1od9MwYHfZruhgkUpoW/6DcCDCJpcR2glmasYjcaMytdrttULaRu6ANmWzlSlskHq4xh08ggc0A9FWieZMO9bn15AH98ihAQ=="
+      }
+    },
+    {
+      "event_id": "a17-900",
+      "kind": "inference_reported",
+      "occurred_at": "2026-09-10T10:02:00+08:00",
+      "received_at": "2026-09-10T10:21:00+08:00",
+      "attributes": {
+        "receipt_id": "rcp-03-canary-1",
+        "station_id": "arm-cell-03",
+        "bundle_id": "B-candidate-v8",
+        "occurred_at": "2026-09-10T10:02:00+08:00",
+        "received_at": "2026-09-10T10:21:00+08:00",
+        "samples": [
+          {
+            "sample_id": "c03-000",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 88.0
+          },
+          {
+            "sample_id": "c03-001",
+            "is_defect": false,
+            "model_reject": true,
+            "latency_ms": 89.0
+          },
+          {
+            "sample_id": "c03-002",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 90.0
+          },
+          {
+            "sample_id": "c03-003",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 91.0
+          },
+          {
+            "sample_id": "c03-004",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 88.0
+          },
+          {
+            "sample_id": "c03-005",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 89.0
+          },
+          {
+            "sample_id": "c03-006",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 90.0
+          },
+          {
+            "sample_id": "c03-007",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 91.0
+          },
+          {
+            "sample_id": "c03-008",
+            "is_defect": false,
+            "model_reject": true,
+            "latency_ms": 88.0
+          },
+          {
+            "sample_id": "c03-009",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 89.0
+          },
+          {
+            "sample_id": "c03-010",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 90.0
+          },
+          {
+            "sample_id": "c03-011",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 91.0
+          },
+          {
+            "sample_id": "c03-012",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 88.0
+          },
+          {
+            "sample_id": "c03-013",
+            "is_defect": false,
+            "model_reject": true,
+            "latency_ms": 89.0
+          },
+          {
+            "sample_id": "c03-014",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 90.0
+          },
+          {
+            "sample_id": "c03-015",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 91.0
+          },
+          {
+            "sample_id": "c03-016",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 88.0
+          },
+          {
+            "sample_id": "c03-017",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 89.0
+          },
+          {
+            "sample_id": "c03-018",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 90.0
+          },
+          {
+            "sample_id": "c03-019",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 91.0
+          },
+          {
+            "sample_id": "c03-020",
+            "is_defect": false,
+            "model_reject": true,
+            "latency_ms": 88.0
+          },
+          {
+            "sample_id": "c03-021",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 89.0
+          },
+          {
+            "sample_id": "c03-022",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 90.0
+          },
+          {
+            "sample_id": "c03-023",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 91.0
+          }
+        ],
+        "key_id": "factory-root-2026",
+        "signature": "ILoR1Ido1BHZsDCSvevB2oedKONQbq0mZbvfiXyZvSLdt2vzJ6ApZ+bhg9YgXEfLvGnlO68+jkavoPHTrxhxH9NYXuMJ7Mf0enSz9dLeR5gUzDbQ4d1iXJSTwtxjadag1MshM6oqVqJvKOcJZljj7VcgC061estaYfSV3eXNcyBL8yRu2QdTZMJzIFTivPImg1QjG8/QFQrHqUWFcbqKjxt/Q1DjgEUyiFfqM2Wjn/i3gPgA3B4k4T1od9MwYHfZruhgkUpoW/6DcCDCJpcR2glmasYjcaMytdrttULaRu6ANmWzlSlskHq4xh08ggc0A9FWieZMO9bn15AH98ihAQ=="
+      }
+    },
+    {
+      "event_id": "a17-056",
+      "kind": "restored_confirmed",
+      "occurred_at": "2026-09-10T10:25:00+08:00",
+      "received_at": "2026-09-10T02:26:00+00:00",
+      "attributes": {
+        "station_id": "arm-cell-03",
+        "operator": "op.zhou"
+      }
+    },
+    {
+      "event_id": "a17-901",
+      "kind": "inference_reported",
+      "occurred_at": "2026-09-10T10:30:00+08:00",
+      "received_at": "2026-09-10T10:31:00+08:00",
+      "attributes": {
+        "receipt_id": "rcp-03-after-rollback",
+        "station_id": "arm-cell-03",
+        "bundle_id": "B-candidate-v8",
+        "occurred_at": "2026-09-10T10:30:00+08:00",
+        "received_at": "2026-09-10T10:31:00+08:00",
+        "samples": [
+          {
+            "sample_id": "c03x-000",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 88.0
+          },
+          {
+            "sample_id": "c03x-001",
+            "is_defect": false,
+            "model_reject": true,
+            "latency_ms": 89.0
+          },
+          {
+            "sample_id": "c03x-002",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 90.0
+          },
+          {
+            "sample_id": "c03x-003",
+            "is_defect": true,
+            "model_reject": true,
+            "latency_ms": 91.0
+          },
+          {
+            "sample_id": "c03x-004",
+            "is_defect": false,
+            "model_reject": false,
+            "latency_ms": 88.0
+          }
+        ],
+        "key_id": "factory-root-2026",
+        "signature": "TlLDbNoz21lKfvqY439kG+l7Yi1G5GFG0ebaQ0h3mM2E+YGUZCRTS08uZA/AqBYt3t1Esi0iko7ZZV7v0cDingh++FFK8y3ZeLLWUCrGgWdZvr+iB743ipKy62nks8xWgnYyVfsVlHpYfA54Z3tWsneWEvu4+i0AuUeIr7WET3BuvUpYFVunq5WOzYchDsjuzy2k87NsTOtJv6foJSaGatIonwBqEXTRZ9WmPeRK9rLmUtRGWfGia+D6DzutHIpGY58KNUOMQ9zsxBV/nXPmGVc4if3znOhtMEW8FzOqbrkhe0D9lYh7IFUBNKzHYWCIoSkqYXH8PTxse5NGihtmzg=="
+      }
+    }
+  ]
+}
